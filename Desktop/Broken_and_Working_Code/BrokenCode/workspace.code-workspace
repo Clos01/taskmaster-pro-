@@ -1,0 +1,16 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "../WorkingCode"
+	},
+	{
+		"path": "../../stock website"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "BrokenCode"
+  }
+}

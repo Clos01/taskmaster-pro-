@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <!-- selects the language it should be read in, in  html-->
+  <head>
+    <!-- The document's title, scripts, and style sheets are all found in the head element, which includes machine-readable information (metadata).
+    -->
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Metadata that cannot be expressed by other HTML meta-related elements such as base, link, script, style, or title is represented by the meta> HTML element.-->
+
+    <link rel="stylesheet" href="style.css" />
+    <!-- element is commonly used to link to css but it can also be used to establish site icons for  home screen and apps on mobiles devies and among other things  -->
+
+    <title>CSS Selectors</title>
+    <!--element defines the documents titke that is whown in the broswer tab it oly contains txt tags within the elemnt are ignored -->
+  </head>
+
+  <body>
+    <!--Body represents the content of an html doc there can onlt be one body no more than that -->
+
+    <header>
+      <!-- The html header indicates introductory material which is usually a collection of introcudtory or navigational help it could have some header components as well as a logo a search form an author and other things -->
+
+      <h1>Student Bio</h1>
+      <!-- the h1 through h6 elements represnt six ;eve;s of selection headings and their importance h1 is going to be bigger-->
+    </header>
+
+    <main>
+      <!-- The primary material of a document's body is represented by the <main> HTML element. The primary content section includes stuff that is directly connected to or expands on a document's or application's principal topic or feature.  -->
+
+      <section>
+        <!-- The <section> HTML element indicates a generic freestanding portion of a document by a more specialized semantic element with very few execptions, sections should always have a heading-->
+        <h2>About Me</h2>
+        <figure>
+          <!--The figcaption HTML element specifies an optional caption that may be used with the figure> HTML element to express self-contained content. The figure, its title, and its contents are all referred to as one-->
+          <img
+            src="./assets/images/image-1.jpg"
+            alt="placeholder image with text reading 200 width 200 height"
+          />
+          <figcaption>Student Image</figcaption>
+          <!--The HTML element figcaption> represents a caption or legend that describes the contents of its parent figure element.-->
+        </figure>
+        <p class="highlighted-text">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        </p>
+      </section>
+
+      <section id="contact-section">
+        <h2>Contact Information</h2>
+        <ul class="highlighted-text">
+          <!--unordered list -->
+          <li>Email: <a href="#">someplace@gmail.com</a></li>
+          <li>GitHub: <a href="#">sampleName</a></li>
+          <li>Portfolio: <a href="#">coming soon</a></li>
+          <!-- In menus and unordered lists, list items are usually displayed using bullet points. In ordered lists, they are usually displayed with an ascending counter on the left, such as a number or letter.-->
+        </ul>
+        <br />
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2021 Student Bio Productions</p>
+    </footer>
+    <!--A <footer> typically contains information about the author of the section, copyright data or links to related documents.-->
+  </body>
+</html>

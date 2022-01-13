@@ -1,0 +1,19 @@
+.headers {
+  color: blue;
+}
+.section {
+  background-color: lemonchiffon;
+}
+#img {
+  height: 200px;
+  width: 200px;
+}
+#email {
+  background-color: wheat;
+}
+#github {
+  background-color: turquoise;
+}
+#portfolio {
+  background-color: tomato;
+}
